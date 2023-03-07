@@ -1,0 +1,51 @@
+main{
+    width: 1337px;
+}
+
+header{
+    height: 455px;
+    margin-bottom: 20px;
+}
+
+aside{
+    background-color: blue;
+    height: 700px;
+    width: 508px;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 4%;
+    border-top-style: groove;
+    border-bottom-style: double;
+    border-color: darkslategray;
+}
+
+section{
+    background-color: orangered;
+    height: 700px;
+    width: 809px;
+    float: right;
+    margin-bottom: 15px;
+    border-radius: 4%;
+    border-top-style: groove;
+    border-bottom-style: double;
+    border-color: darkslategray;
+}
+
+footer{
+    background: linear-gradient(to right, blue 28%, white 39%, orangered 50%);
+    height: 200px;
+    clear: both;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+#darcy{
+    border-radius: 4%;
+}
+
+.letras{
+    color: white;
+}
