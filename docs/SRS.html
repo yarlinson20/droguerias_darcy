@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
   <title>Droguerias Darcy</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="cssproyecto.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
+</head>
+
+<body>
   <main>
     <header>
       <img src="C:\Users\SENA\Pictures\Screenshots\Darcy.png" id="darcy">
@@ -29,11 +31,1040 @@
       </ol>
     </aside>
     <section>
-      <embed src="Grupo1_SRS.pdf" type="application/pdf" width="809px" height="650px" id="srs">
+      <div class="letras" style="width:809px; height:650px; overflow-y: scroll;" id="contenedor1">
+        <center>
+          <h1>Especificacion de Requerimientos</h1>
+        </center>
+        <ol>
+          <h2>
+            <li>Introduccion</li>
+          </h2>
+          <p>
+            Buenas, instructores, de parte del grupo de trabajo N°1, de la ficha 2451831. El día de hoy les
+            venimos a presentar nuestra documentación del proyecto formativo, el cual está basado en realizarle
+            un software a la medida al sector empresarial. La empresa a la que le vamos a realizar nuestro
+            proyecto formativo es una cadena de droguerías, llamada Droguerías Darcy.
+          </p>
+          <ol>
+            <h3>
+              <li>Proposito</li>
+            </h3>
+            <p>
+              El propósito de nuestro proyecto formativo es suplir y ayudar con las necesidades de esta cadena de
+              droguerías, analizando las problemáticas, o en su defecto, necesidades tecnológicas y de negocios
+              que tenga esta empresa, y también sea en su organización, en cuanto al flujo de información.
+            </p>
+            <h3>
+              <li>Alcance</li>
+            </h3>
+            <p>
+              El proyecto que nuestro grupo planea hacer será un aplicativo web, que busque mejorar y organizar
+              la información y ayudar con la forma de llegarle a las personas, mas enfocado en el marketing y
+              visibilidad.
+            </p>
+            <h3>
+              <li>Definiciones, Acrónimos, y Abreviaturas</li>
+            </h3>
+            <ul>
+              <li>
+                <b>Aplicativo web:</b> Herramienta que los usuarios pueden utilizar accediendo a un servidor
+                web a través de internet o de una intranet mediante un navegador.
+              </li>
+              <li>
+                <b>Software:</b> Conjunto de programas y rutinas que permiten a la computadora realizar
+                determinadas tareas.
+              </li>
+              <li>
+                <b>Marketing:</b> Conjunto de técnicas y estudios que tienen como objeto mejorar la
+                comercialización de un producto.
+              </li>
+              <li>
+                <b>Módulo:</b> Es una porción de un programa de ordenador que debe realizar una tarea
+                específica para cumplir con su función u objetivos.
+              </li>
+              <li>
+                <b>SRS (Especificación de requerimientos):</b> Es un documento cuyo propósito es proporcionar
+                una descripción completa de un producto de software a desarrollar, incluyendo su
+                propósito, los principales procesos de negocio que serán soportados, características,
+                parámetros clave de rendimiento y comportamiento.
+              </li>
+              <li>
+                <b>Requerimientos funcionales:</b> Declaración de servicios que el sistema debería
+                proporcionar, dados directamente por el dueño de la empresa, en este caso dueña.
+              </li>
+              <li>
+                <b>Requerimientos no funcionales:</b> Características que el sistema debe tener y con las que
+                debe cumplir, principalmente basadas en el rendimiento, calidad, eficiencia, seguridad y
+                usabilidad.
+              </li>
+              <li>
+                <b>Requerimientos de interfaz de usuario:</b> Son los requisitos de diseño, que van de la mano
+                con los requerimientos funcionales. Por cada requerimiento funcional, hay uno de interfaz.
+              </li>
+            </ul>
+            <h3>
+              <li>Referencias</li>
+            </h3>
+            <h3>
+              <li>Apreciacion Global</li>
+            </h3>
+            <p>
+              El documento planea mostrar todo lo relacionado con nuestro proyecto, detallando cada
+              uno de los puntos importantes, especificar funciones principales y una mirada a largo
+              plazo de nuestro proyecto.
+            </p>
+          </ol>
+          <h2>
+            <li>Descripcion General</li>
+          </h2>
+          <ol>
+            <h3>
+              <li>Perspectivas del Producto</li>
+            </h3>
+            <p>
+              A largo plazo, pensamos que nuestro software cumpla con cada una de las funciones establecidas, que cumpla
+              con su objetivo de ayudar a esta droguería, que sea del agrado de los dueños y empleados, tanto como los
+              clientes y personas externas.
+            </p>
+            <h3>
+              <li>Funciones del Producto</li>
+            </h3>
+            <ul>
+              <li>
+                Mejorar la organización de la droguería, con un inventario que detalle cada uno de los productos y sus
+                detalles, como laboratorio de origen, funcionalidad, etc. (Módulo de inventario)
+              </li>
+              <li>
+                Organizar la contabilidad, con cuentas, fechas de pago, ventas, y todo lo relacionado con facturación en
+                orden. (Módulo de ventas)
+              </li>
+              <li>
+                Manejar el registro e ingreso de clientes, empleados y encargados, con sus roles bien definidos y
+                detallados. (Módulo de registro e ingreso de usuarios)
+              </li>
+              <li>
+                Aumentar el alcance y/o visibilidad e impresiones de la droguería. (Módulo de marketing)
+              </li>
+              <li>
+                Almacenar reseñas, opiniones y calificaciones de los clientes sobre el aplicativo y, principalmente, de
+                la droguería. (Módulo de reseñas)
+              </li>
+            </ul>
+            <h3>
+              <li>Caracteristicas de Usuario</li>
+            </h3>
+            <p>
+              Los usuarios que dispondrán de nuestro software son los empleados, y los gerentes o dueños de la empresa,
+              tanto así como los clientes que podrán usarlo para registrarse y pedir lo que necesiten.
+            </p>
+            <h3>
+              <li>Restricciones</li>
+            </h3>
+            <ul>
+              <li>
+                La principal restricción seria la poca disponibilidad de la dueña de la empresa para con nuestro
+                proyecto, debido a su cargo, que está muy ocupada.
+              </li>
+              <li>
+                Otra restricción seria la parte técnica, ya que todos los integrantes no contamos con el equipo
+                necesario y dependemos mucho del equipo del centro.
+              </li>
+              <li>
+                Y la última restricción seria la parte económica, ya que hay que gastar dinero en cosas necesarias para
+                el proyecto, movilizarse para las reuniones, tanto con el equipo como con la dueña de la empresa.
+              </li>
+            </ul>
+            <h3>
+              <li>Atención y Dependencias</li>
+            </h3>
+            <p>
+              Las áreas que se beneficiarán del programa serán la administrativa, la financiera y la de marketing.
+            </p>
+          </ol>
+          <h2>
+            <li>Requerimientos Especificos</li>
+          </h2>
+          <ol>
+            <h3>
+              <li>Requerimientos Funcionales</li>
+            </h3>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th colspan="2">Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>REF-01</td>
+                <td colspan="2"><b>Inicio de sesion</b></td>
+                <td>25/04/2022</td>
+                <td>ALTO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="4">
+                  El módulo permitirá que el usuario inicie sesión con un usuario o un email y una contraseña y al
+                  finalizar lo dirigirá a la página principal, o si olvida la contraseña la podrá recuperar.
+                </td>
+              </tr>
+              <tr>
+                <th>Entradas</th>
+                <th>Fuente</th>
+                <th>Salida</th>
+                <th>Destino</th>
+                <th>Restricciones</th>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li>Usuario o email</li>
+                    <li>Contraseña</li>
+                  </ul>
+                </td>
+                <td>Formulario inicio de sesion</td>
+                <td>Mensaje de confirmacion o error</td>
+                <td>Pagina principal</td>
+                <td>El usuario debe estar previamente registrado</td>
+              </tr>
+              <tr>
+                <th>Proceso</th>
+                <td colspan="4">
+                  Se ingresa el usuario y la contraseña (el usuario previamente registrado), si estas son correctas y no
+                  se sobrepasa el límite de intentos, el sistema mandará un mensaje de inicio de sesión correcto y
+                  dirigirá al usuario, de acuerdo con su rol, a una página principal diferente para cada usuario. Si el
+                  usuario olvida la contraseña, el sistema le permitirá recuperarla con su número de teléfono,
+                  permitiendo elegir entre mensaje o llamada, o su correo, llegándole un correo con un link para cambiar
+                  su contraseña y diligenciar una nueva.
+                </td>
+              </tr>
+              <tr>
+                <th>Efecto Colateral</th>
+                <td colspan="4">
+                  Si una persona no puede iniciar sesión, no podrá ingresar a la página principal.
+                </td>
+              </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th colspan="2">Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>REF-02</td>
+                <td colspan="2"><b>Registro de usuario</b></td>
+                <td>25/04/2022</td>
+                <td>ALTO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="4">
+                  El módulo de registro le permitirá a una persona poder registrarse en el sistema, para después
+                  ingresar con un rol que el administrador le asigne.
+                </td>
+              </tr>
+              <tr>
+                <th>Entradas</th>
+                <th>Fuente</th>
+                <th>Salida</th>
+                <th>Destino</th>
+                <th>Restricciones</th>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li>Nombres</li>
+                    <li>Apellidos</li>
+                    <li>Email</li>
+                    <li>Usuario</li>
+                    <li>Contraseña</li>
+                    <li>Confirmar contraseña</li>
+                    <li>Telefono</li>
+                    <li>Direccion</li>
+                    <li>Fecha de nacimiento</li>
+                    <li>Tipo de identificacion</li>
+                    <li>N° de identificacion</li>
+                  </ul>
+                </td>
+                <td>Formulario de registro</td>
+                <td>Mensaje de confirmacion o registro invalido</td>
+                <td>Base de datos</td>
+                <td>El usuario no debe estar registrado</td>
+              </tr>
+              <tr>
+                <th>Proceso</th>
+                <td colspan="4">
+                  El usuario deberá ingresar sus datos, como nombres, apellidos, teléfono, etc., para poder registrarse
+                  en el sistema. Para poder registrarse satisfactoriamente, habrá algunos campos de formato obligatorio,
+                  como los nombres y apellidos, que serán solo de carácter, o los de teléfono o número de identificación
+                  que serán solo de números, y ningún campo puede ser dejado en blanco. Al usuario registrarse, sus
+                  datos serán mandados a la base de datos y se le mandara un mensaje al admin que un nuevo usuario fue
+                  registrado, este le dará el rol de acuerdo con su nómina de empleados y clientes. Ya finalizado, la
+                  persona podrá usar el sistema de acuerdo con su necesidad.
+                </td>
+              </tr>
+              <tr>
+                <th>Efecto Colateral</th>
+                <td colspan="4">
+                  Si la persona no puede registrarse, sus datos no serán ingresados en el sistema y no podrá acceder al
+                  sistema, tampoco podrá utilizar las funciones de este.
+                </td>
+              </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th colspan="2">Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>REF-03</td>
+                <td colspan="2"><b>Pagina principal empresa</b></td>
+                <td>25/04/2022</td>
+                <td>ALTO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="4">
+                  Después del inicio de sesión, el usuario, ya sea empleado o encargado, entrará a la página principal,
+                  donde podrá elegir a donde dirigirse, para realizar ciertas funciones.
+                </td>
+              </tr>
+              <tr>
+                <th>Entradas</th>
+                <th>Fuente</th>
+                <th>Salida</th>
+                <th>Destino</th>
+                <th>Restricciones</th>
+              </tr>
+              <tr>
+                <td>Información del usuario (Rol - Empleados y Admin)</td>
+                <td>Base de datos</td>
+                <td>Interfaz del menu empresa</td>
+                <td>Menu de opciones</td>
+                <td>El usuario debe ser el admin o un empleado</td>
+              </tr>
+              <tr>
+                <th>Proceso</th>
+                <td colspan="4">
+                  Al iniciar sesión, el usuario, siendo este un empleado o administrador, será dirigido a una página
+                  principal, en la cual dispondrá de un menú de opciones, que lo llevaran a diferentes módulos del
+                  sistema para ejercer diferentes funciones como trabajador de la farmacia, ya sea el módulo de
+                  inventario, de gestión, de configuración, de reportes o de PQR.
+                </td>
+              </tr>
+              <tr>
+                <th>Efecto Colateral</th>
+                <td colspan="4">
+                  El usuario que tenga un rol diferente al de admin o empleado no podra ingresar a este modulo solamente
+                  para personal de la empresa.
+                </td>
+              </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th colspan="2">Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>REF-04</td>
+                <td colspan="2"><b>Pagina principal cliente</b></td>
+                <td>25/04/2022</td>
+                <td>ALTO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="4">
+                  Después del inicio de sesión, el cliente entrará a la página principal, donde podrá ver el menú de
+                  opciones, en el cual podrá elegir hacia dónde dirigirse y realizar ciertas funciones.
+                </td>
+              </tr>
+              <tr>
+                <th>Entradas</th>
+                <th>Fuente</th>
+                <th>Salida</th>
+                <th>Destino</th>
+                <th>Restricciones</th>
+              </tr>
+              <tr>
+                <td>Información del usuario (Rol - Clientes)</td>
+                <td>Base de datos</td>
+                <td>Interfaz del menú cliente</td>
+                <td>Menu de opciones</td>
+                <td>El usuario debe ser un cliente</td>
+              </tr>
+              <tr>
+                <th>Proceso</th>
+                <td colspan="4">
+                  Al iniciar sesión, el usuario, siendo este un empleado o administrador, será dirigido a una página
+                  principal, en la cual dispondrá de un menú de opciones, que lo llevaran a diferentes módulos del
+                  sistema para ejercer diferentes funciones como trabajador de la farmacia, ya sea el módulo de
+                  inventario, de gestión, de configuración, de reportes o de PQR.
+                </td>
+              </tr>
+              <tr>
+                <th>Efecto Colateral</th>
+                <td colspan="4">
+                  El usuario que tenga un rol diferente al de cliente no podra utilizar las funciones este modulo,
+                  solamente puede visualizar.
+                </td>
+              </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th colspan="2">Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>REF-05</td>
+                <td colspan="2"><b>Modulo ventas</b></td>
+                <td>25/04/2022</td>
+                <td>ALTO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="4">
+                  Al ser una de las opciones del menú, el cliente al seleccionarla podrá ejercer sus pedidos y ver el
+                  catálogo disponible para ejercer su compra; y el administrador podrá editar la información relacionada
+                  a las estrategias de venta.
+                </td>
+              </tr>
+              <tr>
+                <th>Entradas</th>
+                <th>Fuente</th>
+                <th>Salida</th>
+                <th>Destino</th>
+                <th>Restricciones</th>
+              </tr>
+              <tr>
+                <td>Información del usuario (Rol - Clientes)</td>
+                <td>Interfaz de compras</td>
+                <td>Información de compra</td>
+                <td>Página principal</td>
+                <td>El usuario debe estar registrado y debe haber ingresado</td>
+              </tr>
+              <tr>
+                <th>Proceso</th>
+                <td colspan="4">
+                  Luego de elegir en el menú de opciones, el cliente será enviado a este módulo, aquí el cliente podrá:
+                  <ul>
+                    <li>
+                      Ver el catálogo disponible, tanto de medicamentos, como de objetos varios, ya sea productos de
+                      aseo
+                      personal, entre otros.
+                    </li>
+                    <li>
+                      Realizar pedidos y compras.
+                    </li>
+                    <li>
+                      Ver las ofertas, productos nuevos, etc.
+                      Por parte del administrador, se podrá modificar la información de productos con descuento, de
+                      promociones que ya no están disponibles, de nuevos productos, todo lo que sea con las estrategias
+                      de
+                      ventas.
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>Efecto Colateral</th>
+                <td colspan="4">
+                  El usuario que tenga un rol diferente al de cliente no podra utilizar las funciones este modulo,
+                  solamente puede visualizar.
+                </td>
+              </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th colspan="2">Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>REF-06</td>
+                <td colspan="2"><b>Modulo gestion</b></td>
+                <td>25/04/2022</td>
+                <td>ALTO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="4">
+                  Al ser una de las opciones del menú, el administrador al seleccionarla podrá consultar y
+                  administrar todo lo que tenga que ver con el presupuesto, y será un apoyo al módulo de inventario.
+                </td>
+              </tr>
+              <tr>
+                <th>Entradas</th>
+                <th>Fuente</th>
+                <th>Salida</th>
+                <th>Destino</th>
+                <th>Restricciones</th>
+              </tr>
+              <tr>
+                <td>Información del usuario (Rol - Empleados y Admin)</td>
+                <td>Interfaz de gestion</td>
+                <td>Información de inventario</td>
+                <td>Modulo gestion</td>
+                <td>El usuario debe ser el admin o un empleado</td>
+              </tr>
+              <tr>
+                <th>Proceso</th>
+                <td colspan="4">
+                  Luego de elegir en el menú de opciones, el administrador será enviado a este módulo, en el que
+                  podrá ver todos los movimientos de la farmacia: gastos, capital de inversión, sueldos; también,
+                  será un apoyo al módulo de inventario, ayudando con el almacenamiento de la información.
+                </td>
+              </tr>
+              <tr>
+                <th>Efecto Colateral</th>
+                <td colspan="4">
+                  El usuario que tenga un rol diferente al de admin o empleado no podrá ingresar a este módulo
+                  solamente para personal de la empresa.
+                </td>
+              </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th colspan="2">Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>REF-07</td>
+                <td colspan="2"><b>Modulo inventario</b></td>
+                <td>25/04/2022</td>
+                <td>ALTO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="4">
+                  Al ser una de las opciones del menú, el administrador al seleccionarla podrá administrar todo lo
+                  relacionado con la organización y administración de productos, proveedores y/o laboratorios.
+                </td>
+              </tr>
+              <tr>
+                <th>Entradas</th>
+                <th>Fuente</th>
+                <th>Salida</th>
+                <th>Destino</th>
+                <th>Restricciones</th>
+              </tr>
+              <tr>
+                <td>Información del usuario (Rol - Empleados y Admin)</td>
+                <td>Interfaz de inventario</td>
+                <td>Inventario de productos</td>
+                <td>Modulo inventario</td>
+                <td>El usuario debe ser el admin o un empleado</td>
+              </tr>
+              <tr>
+                <th>Proceso</th>
+                <td colspan="4">
+                  Luego de elegir en el menú de opciones, el administrador será enviado a este módulo, en el que podrá
+                  ver y ordenar todos los productos que entren a la farmacia, igual con los proveedores y/o
+                  laboratorios, saber si ya no siguen en trabajo con la farmacia, o añadir nuevos proveedores o
+                  productos.
+                </td>
+              </tr>
+              <tr>
+                <th>Efecto Colateral</th>
+                <td colspan="4">
+                  El usuario que tenga un rol diferente al de admin o empleado no podrá ingresar a este módulo solamente
+                  para personal de la empresa.
+                </td>
+              </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th colspan="2">Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>REF-08</td>
+                <td colspan="2"><b>Modulo consultas</b></td>
+                <td>25/04/2022</td>
+                <td>MEDIO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="4">
+                  Al ser una de las opciones del menú, el administrador al seleccionarla podrá especificar y ver
+                  información sobre la empresa y los usuarios, ya sean clientes o empleados.
+                </td>
+              </tr>
+              <tr>
+                <th>Entradas</th>
+                <th>Fuente</th>
+                <th>Salida</th>
+                <th>Destino</th>
+                <th>Restricciones</th>
+              </tr>
+              <tr>
+                <td>Información del usuario (Rol - Admin)</td>
+                <td>Interfaz de consultas</td>
+                <td>Informacion de la empresa (Empresa y/o Usuarios)</td>
+                <td>Modulo consultas</td>
+                <td>El usuario debe ser el admin</td>
+              </tr>
+              <tr>
+                <th>Proceso</th>
+                <td colspan="4">
+                  Luego de elegir en el menú de opciones, el administrador será enviado a este módulo, en el que podrá
+                  ver y ordenar todo el flujo de información relacionada con la empresa, los usuarios, en el que se
+                  engloban los empleados y los clientes.
+                </td>
+              </tr>
+              <tr>
+                <th>Efecto Colateral</th>
+                <td colspan="4">
+                  El usuario que tenga un rol diferente al de admin no podrá ingresar a este módulo.
+                </td>
+              </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th colspan="2">Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>REF-09</td>
+                <td colspan="2"><b>Modulo reportes</b></td>
+                <td>25/04/2022</td>
+                <td>MEDIO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="4">
+                  Al ser una de las opciones del menú, el administrador será enviado a este módulo, en el que podrá ver
+                  los reportes, informes y/o tablas generadas cada vez que se cumple cierta función importante de la
+                  farmacia, y será un apoyo para el módulo de consultas, ayudando con el manejo de la información de la
+                  empresa.
+                </td>
+              </tr>
+              <tr>
+                <th>Entradas</th>
+                <th>Fuente</th>
+                <th>Salida</th>
+                <th>Destino</th>
+                <th>Restricciones</th>
+              </tr>
+              <tr>
+                <td>Información del usuario (Rol - Admin)</td>
+                <td>Interfaz de reportes</td>
+                <td>Reportes, informes y/o tablas</td>
+                <td>Modulo reportes</td>
+                <td>El usuario debe ser el admin</td>
+              </tr>
+              <tr>
+                <th>Proceso</th>
+                <td colspan="4">
+                  Luego de elegir en el menú de opciones, el administrador será enviado a este módulo, en el que podrá
+                  ver todos los documentos generados automáticamente, ya sean reportes, tablas o informes; con su fecha,
+                  área afectada y toda la información necesaria para tener cierto control sobre cada función importante
+                  realizada, ya sean de nuevos ingresos de productos, gastos varios, y siendo un apoyo al módulo de
+                  consultas, respaldara la información relacionada con la empresa, los usuarios, generando reportes
+                  sobre nuevos clientes, nuevos empleados, etc.
+                </td>
+              </tr>
+              <tr>
+                <th>Efecto Colateral</th>
+                <td colspan="4">
+                  El usuario que tenga un rol diferente al de admin no podrá ingresar a este módulo.
+                </td>
+              </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th colspan="2">Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>REF-10</td>
+                <td colspan="2"><b>Modulo configuracion</b></td>
+                <td>25/04/2022</td>
+                <td>MEDIO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="4">
+                  En este módulo se podrán modificar datos básicos de información o de aspecto, para todos los usuarios.
+                </td>
+              </tr>
+              <tr>
+                <th>Entradas</th>
+                <th>Fuente</th>
+                <th>Salida</th>
+                <th>Destino</th>
+                <th>Restricciones</th>
+              </tr>
+              <tr>
+                <td>Información del usuario (Cualquiera)</td>
+                <td>Interfaz de configuracion</td>
+                <td>Interfaz de configuracion</td>
+                <td>Menu de opciones</td>
+                <td>El usuario debe estar registrado</td>
+              </tr>
+              <tr>
+                <th>Proceso</th>
+                <td colspan="4">
+                  Luego de elegir en el menú de opciones, los usuarios serán enviados a este módulo, aquí podrá
+                  modificar información básica, como sus datos personales, de vivienda, o el aspecto del sistema.
+                </td>
+              </tr>
+              <tr>
+                <th>Efecto Colateral</th>
+                <td colspan="4">
+                  Si el usuario no esta registrado no podra ingresar a este modulo.
+                </td>
+              </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th colspan="2">Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>REF-11</td>
+                <td colspan="2"><b>Modulo PQR</b></td>
+                <td>25/04/2022</td>
+                <td>ALTO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="4">
+                  Al ser una de las opciones del menú, el cliente al seleccionarla podrá acceder a un tipo de foro en
+                  cual podrá escribir sus opiniones, dudas o reseñas sobre el servicio del sistema o de la farmacia.
+                </td>
+              </tr>
+              <tr>
+                <th>Entradas</th>
+                <th>Fuente</th>
+                <th>Salida</th>
+                <th>Destino</th>
+                <th>Restricciones</th>
+              </tr>
+              <tr>
+                <td>Información del usuario (Rol - Clientes)</td>
+                <td>Interfaz de PQR</td>
+                <td>Modulo de PQR</td>
+                <td>Base de datos</td>
+                <td>El usuario debe ser un cliente</td>
+              </tr>
+              <tr>
+                <th>Proceso</th>
+                <td colspan="4">
+                  Luego de elegir en el menú de opciones, el cliente será enviado a este módulo, aquí el será enviado a
+                  un foro donde podrán ingresar todos los clientes a compartir sus opiniones acerca de la farmacia, su
+                  servicio, también sobre el aplicativo, opiniones, reseñas, dudas sobre la farmacia o el aplicativo.
+                  Estas cuestiones serán enviadas al administrador, donde el podrá responderlas si lo ve necesario.
+                </td>
+              </tr>
+              <tr>
+                <th>Efecto Colateral</th>
+                <td colspan="4">
+                  El usuario debe estar registrado.
+                </td>
+              </tr>
+            </table>
+            <h3>
+              <li>Requerimientos No Funcionales</li>
+            </h3>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th>Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>RNF-01</td>
+                <td>Optimizacion</td>
+                <td>25/04/2022</td>
+                <td>ALTO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="3">Que nuestro programa este lo suficientemente optimizado para que no traiga retrasos al
+                  cliente.</td>
+              </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th>Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>RNF-02</td>
+                <td>Interfaz autodidactica</td>
+                <td>25/04/2022</td>
+                <td>ALTO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="3">Que el programa no tenga una interfaz muy difícil y que sea fácil de aprender.</td>
+              </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th>Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>RNF-03</td>
+                <td>Sistema de facturacion</td>
+                <td>25/04/2022</td>
+                <td>ALTO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="3">Que al momento de realizar Una compra en línea cree una factura automáticamente y la
+                  mande al correo o al WhatsApp del cliente.</td>
+              </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th>Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>RNF-04</td>
+                <td>Interfaz adaptativa</td>
+                <td>25/04/2022</td>
+                <td>ALTO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="3">Que las interfaces que aparecen en el Menu Principal cambien dependiendo del rol (Ya sea
+                  Administrador, Empleado o usuario).</td>
+              </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th>Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>RNF-05</td>
+                <td>Punto de restauracion</td>
+                <td>25/04/2022</td>
+                <td>ALTO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="3">Que el programa vaya creando automaticamente puntos de restauracion para evitar pequeños
+                  bugs</td>
+              </tr>
+            </table>
+            <h3>
+              <li>Requerimientos de interfaz de usuario</li>
+            </h3>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th>Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>RIU-01</td>
+                <td>Interfaz login</td>
+                <td>25/04/2022</td>
+                <td>ALTO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="3">Interfaz que contenga los campos de usuario/email y contraseña, ademas de un fondo
+                  relacionado a la farmacia.
+                </td>
+            </table>
+            <br>
+            <br>
+            <br>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th>Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>RIU-02</td>
+                <td>Interfaz registro de usuario</td>
+                <td>25/04/2022</td>
+                <td>ALTO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="3">Interfaz que contenga los siguientes campos: nombres, apellidos, email, usuario,
+                  contraseña y su confirmacion, telefono, direccion, fecha de nacimiento, tipo de identificacion y
+                  numero de identificacion, ademas de un fondo relacionado a la farmacia.
+                </td>
+              </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th>Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>RIU-03</td>
+                <td>Interfaz principal</td>
+                <td>25/04/2022</td>
+                <td>ALTO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="3">Interfaz que sea didactica, con un menu donde se seleccionen diferentes opciones,
+                  organizada, y que muestre los articulos que seran vendidos.
+                </td>
+              </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th>Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>RIU-04</td>
+                <td>Interfaz registro de usuario</td>
+                <td>25/04/2022</td>
+                <td>ALTO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="3">Interfaz que contenga los siguientes campos: nombres, apellidos, email, usuario,
+                  contraseña y su confirmacion, telefono, direccion, fecha de nacimiento, tipo de identificacion y
+                  numero de identificacion, ademas de un fondo relacionado a la farmacia.
+                </td>
+              </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th>Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>RIU-05</td>
+                <td>Interfaz configuracion</td>
+                <td>25/04/2022</td>
+                <td>ALTO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="3">Interfaz que contenga opciones como cambio de usuario, cambio de contraseña, cambios en la visualizacion de la pagina, etc.
+                </td>
+              </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <table>
+              <tr>
+                <th>Codigo</th>
+                <th>Nombre</th>
+                <th>Fecha</th>
+                <th>Grado Necesidad</th>
+              </tr>
+              <tr>
+                <td>RIU-06</td>
+                <td>Interfaz PQR</td>
+                <td>25/04/2022</td>
+                <td>ALTO</td>
+              </tr>
+              <tr>
+                <th>Descripcion</th>
+                <td colspan="3">Interfaz que contenga opciones para que los usuarios dejen reseñas del servicio, opiniones, algo tipo foro.
+                </td>
+              </tr>
+            </table>
+          </ol>
+        </ol>
+      </div>
       <br>
       <a href="index.html" class="letras" id="link">Volver al inicio</a>
     </section>
     <footer></footer>
   </main>
-  </body>
+</body>
 </html>
